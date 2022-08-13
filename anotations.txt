@@ -1,0 +1,38 @@
+# Sempre antes de iniciar um projeto
+
+python -m pip install pip setuptools wheel --upgrade
+
+
+# Corrigir o GIT
+
+git config --global user.name "Cleyton Batista de Jesus"
+
+git config --global user.email "cleyton.fs777@gmail.com" 
+
+git config --global init.defaultBranch main    
+
+# Se já houver um git init na pasta rode o comando
+
+rm -Rf .git
+
+# Apos isso inicie
+
+# CRIE UMA CHAVE SSH 
+
+ssh-heygen
+
+# FAZER CAT NO CAMINHO DO ARQUIVO E copyIsArray
+
+# Ir até settings, e cadastrar chaves SSH
+
+# COPIAR O LINK DE SSH 
+
+
+# Digitar dentro do projeto:
+
+git remote add origin git@github.com:cleytonfs777/django_full.git
+
+
+# SE QUISER VER O QUE FOI FEITOS
+
+git remote -v
